@@ -13,5 +13,5 @@ $name_psw = ["username" => $name_from_form, "password" => $psw_from_form];
 if (in_array($name_psw, $users)) {
     echo "Jméno a heslo jsou správné. Vítej, " .$name_from_form;
 } else {
-    header("Location: /?test=spatne_udaje&key=value");
+    header("Location: /?row1=spatne_udaje&row2=zkuste_to_znovu");
 }
